@@ -2,10 +2,10 @@
   "name": "bc-local-sync",
   "version": "1.0.0",
   "description": "Local Node service that talks NTLM to on-prem Business Central and syncs results into Supabase.",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
